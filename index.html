@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="./index.js"></script>
+  <title>Clout Schedular</title>
+</head>
+
+<body>
+  <h3>Schedule A Post</h3>
+  <form id="schedular-form" action="#" method="post">
+    <textarea name="message" cols="30" rows="10" placeholder="Drop a clout and post it later" required></textarea>
+    <div style="display: flex;">
+      <input type="datetime-local" name="time" width="75%">
+      <button type="submit" width="25%">Save</button>
+    </div>
+  </form>
+  <a href="./dashboard">View Scheduled</a>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;300;400;700&display=swap');
+
+    body {
+      font-family: 'Roboto Mono', monospace;
+      margin: 0;
+      /* display: flex; */
+      background-color: white;
+      padding: 3rem;
+    }
+
+    form {
+      border: thin gray;
+      border-radius: 1rem;
+      padding: 1rem;
+    }
+
+    button {
+      border: none;
+      border-radius: 0.5rem;
+      padding: 0.5rem 1rem;
+      background-color: transparent;
+    }
+
+    button:hover {
+      background-color: #F8F8F8;
+    }
+
+    button:active {
+      background-color: #E2E2E2;
+    }
+  </style>
+</body>
+
+</html>
